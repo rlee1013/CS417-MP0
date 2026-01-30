@@ -100,3 +100,6 @@ InitTestScene*.unity*
 
 # Samples
 **/[Aa]ssets/Samples/
+
+# TextMesh
+**/[Aa]ssets/TextMesh Pro/
