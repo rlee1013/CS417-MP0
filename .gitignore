@@ -106,3 +106,7 @@ InitTestScene*.unity*
 
 # Materials
 **/[Aa]ssets/Materials/
+
+# Builds
+**/[Bb]uild/
+**/[Bb]in/
