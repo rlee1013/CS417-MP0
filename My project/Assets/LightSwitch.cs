@@ -9,7 +9,7 @@ public class LightSwitch : MonoBehaviour
     bool on = false;
     void Start()
     {
-        roomLight = GetComponent<Light>();
+        action.action.Enable();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class LightSwitch : MonoBehaviour
         if (action.action.WasPressedThisFrame())
         {
             on = !on;
-            roomLight.color = on ? Color.lemonChiffon : Color.white;
+            roomLight.color = on ? Color.red : Color.white;
         }
     }
 }

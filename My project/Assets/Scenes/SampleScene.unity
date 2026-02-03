@@ -730,7 +730,7 @@ Transform:
   m_GameObject: {fileID: 843426011}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.36144, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1098,7 +1098,7 @@ Light:
   serializedVersion: 12
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 100
   m_Range: 50
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1331,7 +1331,7 @@ MonoBehaviour:
       m_SingletonActionBindings:
       - m_Name: 
         m_Id: 80a66279-61f4-4d3d-8ec3-9601560aface
-        m_Path: <XRController>{RightHand}/{PrimaryButton}
+        m_Path: <XRController>{LeftHand}/{SecondaryButton}
         m_Interactions: 
         m_Processors: 
         m_Groups: 
@@ -1645,11 +1645,11 @@ MonoBehaviour:
   m_text: 'Controls
 
 
-    A - teleport
-
     B - quit
 
-    X - flip the light switch'
+    X - flip the light switch
+
+    Y - teleport '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

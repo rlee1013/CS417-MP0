@@ -11,6 +11,7 @@ public class Teleport : MonoBehaviour
     void Start()
     {
         homePos = transform.position;
+        action.action.Enable();
     }
 
     // Update is called once per frame

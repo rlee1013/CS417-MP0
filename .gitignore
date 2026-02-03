@@ -110,3 +110,5 @@ InitTestScene*.unity*
 # Builds
 **/[Bb]uild/
 **/[Bb]in/
+
+MP0
